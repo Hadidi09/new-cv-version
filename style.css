@@ -1,0 +1,634 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+#contenu {
+  border: solid 1px rgb(92, 107, 192);
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+aside {
+  width: 30%;
+  background-color: rgb(92, 107, 192);
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+
+main {
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.dev {
+  border-bottom: 2px solid rgb(92, 107, 192);
+}
+.prénom {
+  color: rgb(92, 107, 192);
+}
+
+/*******photo************/
+.photo {
+  width: 100%;
+  padding-bottom: 0%;
+}
+img {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+figure {
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  text-align: center;
+}
+.trait {
+  border-style: solid;
+  color: rgb(92, 107, 192);
+  width: 85%;
+}
+
+/*******Contact************/
+.contact {
+  width: 100%;
+  color: #fff;
+}
+.contact h3 {
+  margin-top: 0;
+  background-color: rgb(0, 255, 255);
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(92, 107, 192);
+}
+.item1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 10%;
+  font-size: 0.99rem;
+}
+
+/*******A propos de moi************/
+
+.A_propos {
+  width: 100%;
+  
+}
+.A_propos h3 {
+  color: rgb(92, 107, 192);
+  background-color: rgb(0, 255, 255);
+  margin: 0 auto;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.mon_propos {
+  width: 88%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 6%;
+  margin-bottom: 0%;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+/***********/
+.java {
+  color: blue;
+}
+.fa-node {
+  
+  color: #00ff00;
+}
+
+.fa-html5 {
+ 
+  color: #f30808;
+}
+
+.fa-css3-alt {
+  
+  color: #f8fcff;
+}
+
+.fa-js-square {
+  
+  color: #ffe700;
+}
+
+.fa-bootstrap {
+  
+  color: #ff00be;
+}
+
+.fa-github {
+ 
+  color: #000;
+}
+.fa-react {
+ 
+  color: rgb(16, 195, 240);
+}
+
+.niveau{
+  color: #fff;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.para-niveau p{
+   display: inline-block;
+}
+/*******Loisirs************/
+
+.Loisirs {
+  width: 100%;
+  margin-top: 5%;
+}
+.Loisirs h3 {
+  margin-top: 0%;
+  color: rgb(92, 107, 192);
+  background-color: rgb(0, 255, 255);
+  font-size: 1.5em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.icones {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.icones i {
+  padding-bottom: 3%;
+}
+
+/************************
+    **************************
+    *************************/
+
+header {
+  width: 100%;
+  display: flex;
+  padding-top: 2%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+header h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-bottom: 0%;
+  padding-left: 7%;
+}
+header h2 {
+  margin-top: 0;
+  font-size: 1.75em;
+  text-transform: unset;
+  padding-left: 7%;
+}
+
+.Formations {
+  width: 100%;
+}
+.Formations h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding-left: 3%;
+  margin-bottom: 0;
+}
+
+.Expérience_professionnelle {
+  width: 100%;
+}
+.Expérience_professionnelle h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding-left: 3%;
+  margin-bottom: 0;
+}
+
+.Recommandations {
+  width: 100%;
+  margin: 0%;
+}
+.Recommandations h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding-left: 3%;
+  margin-bottom: 0;
+}
+.article {
+  margin-bottom: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/***********les articles***********/
+.article1,
+.article2,
+.article3,
+.article4,
+.article5,
+.article6 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0%;
+}
+.dates {
+  width: 33%;
+  margin-top: 1%;
+}
+.dates p {
+  text-align: center;
+}
+.textes {
+  width: 55%;
+  margin: 0;
+  padding: 0;
+}
+.textes h4 {
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+.textes h5 {
+  margin-top: 0%;
+  margin-bottom: 1%;
+  font-weight: 400;
+  font-size: 1em;
+}
+.textes p {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  font-weight: 400;
+  font-size: 1em;
+}
+article h4 {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+article p {
+  margin-top: 0%;
+}
+.article article {
+  margin-bottom: -5%;
+}
+/**********************
+******************/
+.fa-dot-circle {
+  padding-right: 15px;
+  color: rgb(92, 107, 192);
+}
+.fa-circle {
+  padding-right: 15px;
+  color: rgb(92, 107, 192);
+}
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-pencil-alt {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: rgb(92, 107, 192);
+  align-self: flex-end;
+}
+.titres {
+  display: flex;
+  padding-left: 7%;
+  margin-bottom: 0;
+}
+/****************mediaqueries***********/
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    display: block;
+    font-size: 1em;
+  }
+  #contenu {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+  aside,
+  main {
+    width: 100%;
+  }
+  .photo {
+    width: 38%;
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    background: rgb(92, 107, 192);
+    box-shadow: 0 0 0.3em 0.3em rgb(92, 107, 192);
+    border-radius: 7%;
+    border: 2px solid rgb(0, 255, 255);
+  }
+  header {
+    width: 40%;
+    padding-bottom: 0%;
+    float: left;
+    font-size: 1em;
+  }
+  .mon_propos {
+    margin-bottom: 8%;
+  }
+  .item1 {
+    text-align: center;
+    padding-left: 0%;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  body {
+    display: block;
+    font-size: 1em;
+  }
+  #contenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+  aside,
+  main {
+    width: 100%;
+  }
+  .photo {
+    width: 40%;
+    position: absolute;
+    top: 3%;
+    left: 55%;
+    background: rgb(92, 107, 192);
+    box-shadow: 0 0 0.3em 0.3em rgb(92, 107, 192);
+    border-radius: 7%;
+    border: 2px solid rgb(0, 255, 255);
+  }
+  header {
+    width: 50%;
+    padding-bottom: 0%;
+    float: left;
+    font-size: 1em;
+  }
+  h1,
+  h2 {
+    padding-left: 2%;
+  }
+
+  .item1 {
+    text-align: center;
+    padding-left: 0%;
+  }
+}
+@media (min-width: 280px) and (max-width: 479px) {
+  body {
+    display: block;
+    font-size: 0.8em;
+    box-sizing: border-box;
+  }
+  #contenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+  aside,
+  main {
+    width: 100%;
+  }
+
+  .photo {
+    width: 27%;
+    position: absolute;
+    top: 2%;
+    left: 59%;
+    background: rgb(92, 107, 192);
+    box-shadow: 0 0 0.3em 0.3em rgb(92, 107, 192);
+    border-radius: 7%;
+    border: 2px solid rgb(0, 255, 255);
+  }
+  header {
+    width: 58%;
+    padding-bottom: 5%;
+    float: left;
+    font-size: 0.8em;
+  }
+  h1,
+  h2 {
+    padding-left: 2%;
+  }
+
+  .item1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 10%;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .dates {
+    width: 40%;
+    border-radius: 30%;
+    /*box-shadow: 0 0 5px 5px rgb(92,107,192);
+       border: 2px solid rgb(92,107,192);*/
+    padding-bottom: 0%;
+    padding-top: 2%;
+  }
+  .article1,
+  .article2,
+  .article3,
+  .article4,
+  .article5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  h3 {
+    font-size: 0.8em;
+  }
+  .textes {
+    margin-top: 0%;
+    /* box-shadow: 0 0 7px 7px rgb(92,107,192);
+        border-radius: 10%;*/
+  }
+  .textes h4 {
+    margin-top: 2%;
+    font-size: 0.7rem;
+  }
+  .textes p {
+    width: 90%;
+    margin-left: 8%;
+  }
+  h4 {
+    margin-top: 0%;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  h5 {
+    text-align: center;
+  }
+
+  .article {
+    width: 100%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .article article {
+    width: 80%;
+    font-size: 0.8rem;
+    margin-bottom: 0%;
+    padding-left: 10%;
+  }
+  .article h4 {
+    margin-top: 3%;
+    margin-bottom: 0%;
+  }
+  .article article h4 {
+    text-align: start;
+  }
+}
+@media (min-width: 168px) and (max-width: 279px) {
+  body {
+    display: block;
+    font-size: 0.6em;
+    box-sizing: border-box;
+  }
+  #contenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+  aside,
+  main {
+    width: 100%;
+  }
+  .photo {
+    width: 30%;
+    position: absolute;
+    top: 3%;
+    left: 55%;
+    background: rgb(92, 107, 192);
+    box-shadow: 0 0 0.3em 0.3em rgb(92, 107, 192);
+    border-radius: 7%;
+    border: 2px solid rgb(0, 255, 255);
+  }
+  header {
+    width: 40%;
+    padding-bottom: 0%;
+    float: left;
+    font-size: 0.8em;
+  }
+  h1 {
+    margin-top: 0%;
+    padding-left: 0%;
+  }
+  .titres {
+    width: 100%;
+    padding-left: 0%;
+  }
+
+  .item1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 3%;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  .mon_propos {
+    margin-bottom: 8%;
+    font-size: 0.6rem;
+  }
+
+  .dates {
+    width: 50%;
+    border-radius: 30%;
+    padding-bottom: 0%;
+    padding-top: 2%;
+    margin-bottom: 0%;
+  }
+  .article1,
+  .article2,
+  .article3,
+  .article4,
+  .article5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dates p {
+    margin-bottom: 0%;
+  }
+
+  .textes {
+    width: 71%;
+    margin-top: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  .textes h4 {
+    margin-top: 2%;
+    font-size: 0.7rem;
+  }
+  .textes p {
+    width: 80%;
+    margin-left: 8%;
+  }
+  h4 {
+    margin-top: 0%;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  h5 {
+    text-align: center;
+  }
+  .article {
+    width: 100%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .article article {
+    width: 80%;
+    font-size: 0.8rem;
+    margin-bottom: 0%;
+    padding-left: 10%;
+  }
+  .article h4 {
+    margin-top: 3%;
+    margin-bottom: 0%;
+  }
+  .article article h4 {
+    text-align: start;
+  }
+}
