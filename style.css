@@ -45,6 +45,8 @@ main {
 }
 .nom {
   font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 /*******photo************/
@@ -228,6 +230,7 @@ header h2 {
 
 .Expérience_professionnelle {
   width: 100%;
+  margin-bottom: 15px;
 }
 .Expérience_professionnelle h3 {
   font-size: 1.5em;
@@ -337,25 +340,30 @@ article .para-text {
 
 .soft-skills p {
   border: 2px solid #fff;
-  max-width: fit-content;
   border-radius: 15px;
   padding: 1%;
   background-color: #fff;
   color: #000;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 .item1 .para-aside {
   border: 2px solid #fff;
-  max-width: fit-content;
   border-radius: 15px;
   padding: 1%;
   background-color: #fff;
   color: #000;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 .items .flex-content {
   display: flex;
   justify-content: center;
+}
+.flex-contact {
+  font-weight: 600;
 }
 /****************mediaqueries***********/
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -378,16 +386,16 @@ article .para-text {
   .photo {
     width: 38%;
     position: absolute;
-    top: 3%;
-    left: 45%;
+    top: 0.7%;
+    left: 50%;
     background: rgb(92 112 177);
     box-shadow: 0 0 0.3em 0.3em rgb(92 112 177);
     border-radius: 7%;
     border: 2px solid rgb(0, 255, 255);
   }
   header {
-    width: 40%;
-    padding-bottom: 0%;
+    width: 50%;
+    padding-bottom: 10%;
     float: left;
     font-size: 1em;
   }
@@ -397,6 +405,12 @@ article .para-text {
   .item1 {
     text-align: center;
     padding-left: 0%;
+  }
+  .item1 .para-aside {
+    max-width: none;
+  }
+  .soft-skills p {
+    max-width: none;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
@@ -415,18 +429,18 @@ article .para-text {
     width: 100%;
   }
   .photo {
-    width: 40%;
+    width: 35%;
     position: absolute;
-    top: 3%;
-    left: 55%;
+    top: 1%;
+    left: 61%;
     background: rgb(92 112 177);
     box-shadow: 0 0 0.3em 0.3em rgb(92 112 177);
     border-radius: 7%;
     border: 2px solid rgb(0, 255, 255);
   }
   header {
-    width: 50%;
-    padding-bottom: 0%;
+    width: 58%;
+    padding-bottom: 10%;
     float: left;
     font-size: 1em;
   }
@@ -438,6 +452,12 @@ article .para-text {
   .item1 {
     text-align: center;
     padding-left: 0%;
+  }
+  .item1 .para-aside {
+    max-width: none;
+  }
+  .soft-skills p {
+    max-width: none;
   }
 }
 @media (min-width: 280px) and (max-width: 479px) {
@@ -458,18 +478,18 @@ article .para-text {
   }
 
   .photo {
-    width: 27%;
+    width: 21.5%;
     position: absolute;
-    top: 2%;
-    left: 59%;
+    top: 2px;
+    left: 70%;
     background: rgb(92 112 177);
     box-shadow: 0 0 0.3em 0.3em rgb(92 112 177);
     border-radius: 7%;
     border: 2px solid rgb(0, 255, 255);
   }
   header {
-    width: 58%;
-    padding-bottom: 5%;
+    width: 50%;
+    padding-bottom: 1%;
     float: left;
     font-size: 0.8em;
   }
@@ -477,15 +497,23 @@ article .para-text {
   h2 {
     padding-left: 2%;
   }
-
+  .mon_propos {
+    text-align: center;
+  }
   .item1 {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-left: 10%;
+    overflow-wrap: anywhere;
     font-size: 0.8rem;
     text-align: center;
+  }
+  .item1 .para-aside {
+    max-width: none;
+  }
+  .soft-skills p {
+    max-width: none;
   }
 
   .dates {
@@ -500,7 +528,8 @@ article .para-text {
   .article2,
   .article3,
   .article4,
-  .article5 {
+  .article5,
+  .article6 {
     display: flex;
     justify-content: center;
     flex-direction: column;
