@@ -118,8 +118,7 @@ figure {
   text-align: justify;
   font-size: 1.2em;
   border: 2px solid rgb(92 112 177);
-  background-color: rgb(92 112 177);
-  color: #fff;
+  color: #000;
   border-radius: 15px;
   padding: 1%;
 }
@@ -167,8 +166,10 @@ figure {
   color: #000;
   font-size: 22px;
 }
-.para-niveau p {
-  display: inline-block;
+.para-niveau {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  column-gap: 10px;
 }
 /*******Loisirs************/
 
@@ -305,8 +306,7 @@ article p {
 article .para-text {
   font-size: 1.2em;
   border: 2px solid rgb(92 112 177);
-  background-color: rgb(92 112 177);
-  color: #fff;
+  color: #000;
   border-radius: 15px;
   padding: 1%;
   max-width: fit-content;
@@ -351,12 +351,11 @@ article .para-text {
 .item1 .para-aside {
   border: 2px solid #fff;
   border-radius: 15px;
-  padding: 1%;
+  padding: 1% 1% 1% 5%;
   background-color: #fff;
   color: #000;
   font-size: 20px;
   display: flex;
-  justify-content: center;
 }
 .items .flex-content {
   display: flex;
