@@ -171,6 +171,22 @@ figure {
   grid-template-columns: 33% 33% 33%;
   column-gap: 10px;
 }
+.mysql {
+  max-width: 60%;
+  height: auto;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 2%;
+  margin-bottom: 0;
+}
+.mongodb {
+  max-width: 60%;
+  height: auto;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 2%;
+  margin-bottom: 0;
+}
 /*******Loisirs************/
 
 .Loisirs {
