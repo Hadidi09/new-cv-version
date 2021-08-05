@@ -129,29 +129,55 @@ figure {
 }
 .fa-node {
   color: #00ff00;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 15px;
 }
 
 .fa-html5 {
   color: #f30808;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 15px;
+  padding: 1%;
 }
 
 .fa-css3-alt {
-  color: #f8fcff;
+  color: #1389e2;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 15px;
+  padding: 1%;
 }
 
 .fa-js-square {
   color: #ffe700;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 15px;
+  padding: 1%;
 }
 
 .fa-bootstrap {
   color: #ff00be;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 15px;
+  padding: 1%;
 }
 
 .fa-github {
   color: #000;
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 15px;
+  padding: 1%;
 }
 .fa-react {
   color: rgb(16, 195, 240);
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 15px;
 }
 
 .niveau {
