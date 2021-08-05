@@ -9,7 +9,7 @@ body {
   justify-content: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 2em;
 }
 #contenu {
   border: solid 1px rgb(92 112 177);
@@ -21,7 +21,7 @@ body {
 }
 
 aside {
-  width: 30%;
+  width: 45%;
   background-color: rgb(92 112 177);
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ main {
   color: rgb(92 112 177);
 }
 .nom {
-  font-size: 20px;
+  font-size: 2em;
   display: flex;
   justify-content: center;
 }
@@ -360,18 +360,19 @@ article .para-text {
   padding: 1%;
   background-color: #fff;
   color: #000;
-  font-size: 25px;
+  font-size: 2em;
   display: flex;
   justify-content: center;
 }
 .item1 .para-aside {
   border: 2px solid #fff;
   border-radius: 15px;
-  padding: 1% 1% 1% 5%;
+  padding: 1% 5% 1% 5%;
   background-color: #fff;
   color: #000;
-  font-size: 20px;
+  font-size: 2em;
   display: flex;
+  overflow: hidden;
 }
 .items .flex-content {
   display: flex;
@@ -397,12 +398,13 @@ article .para-text {
   aside,
   main {
     width: 100%;
+    font-size: 2em;
   }
   .photo {
-    width: 38%;
+    width: 26%;
     position: absolute;
     top: 0.7%;
-    left: 50%;
+    left: 66%;
     background: rgb(92 112 177);
     box-shadow: 0 0 0.3em 0.3em rgb(92 112 177);
     border-radius: 7%;
@@ -414,11 +416,13 @@ article .para-text {
     float: left;
     font-size: 1em;
   }
+  hearder h1 {
+    font-size: 2em;
+  }
   .mon_propos {
     margin-bottom: 8%;
   }
   .item1 {
-    text-align: center;
     padding-left: 0%;
   }
   .item1 .para-aside {
@@ -474,6 +478,9 @@ article .para-text {
   .soft-skills p {
     max-width: none;
   }
+  .fa-4x {
+    font-size: 4em;
+  }
 }
 @media (min-width: 280px) and (max-width: 479px) {
   body {
@@ -490,13 +497,14 @@ article .para-text {
   aside,
   main {
     width: 100%;
+    font-size: 2em;
   }
 
   .photo {
     width: 21.5%;
     position: absolute;
-    top: 2px;
-    left: 70%;
+    top: 20px;
+    left: 75%;
     background: rgb(92 112 177);
     box-shadow: 0 0 0.3em 0.3em rgb(92 112 177);
     border-radius: 7%;
@@ -512,8 +520,15 @@ article .para-text {
   h2 {
     padding-left: 2%;
   }
+  header h1 {
+    font-size: 1.5em;
+  }
   .mon_propos {
-    text-align: center;
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
   }
   .item1 {
     width: 95%;
@@ -521,11 +536,13 @@ article .para-text {
     justify-content: flex-start;
     flex-direction: column;
     overflow-wrap: anywhere;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
   }
   .item1 .para-aside {
-    max-width: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   .soft-skills p {
     max-width: none;
@@ -550,8 +567,9 @@ article .para-text {
     flex-direction: column;
     align-items: center;
   }
-  h2 {
-    font-size: 0.8em;
+  .Expérience_professionnelle h2,
+  .Formations h2 {
+    font-size: 1em;
   }
   .textes {
     margin-top: 0%;
@@ -560,19 +578,20 @@ article .para-text {
   }
   .textes h4 {
     margin-top: 2%;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .textes p {
-    width: 90%;
-    margin-left: 8%;
+    width: 135%;
+    margin-left: 2%;
   }
   h3 {
     margin-top: 0%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
   }
   h4 {
     text-align: center;
+    font-size: 1rem;
   }
 
   .article {
@@ -611,6 +630,7 @@ article .para-text {
   aside,
   main {
     width: 100%;
+    font-size: 2em;
   }
   .photo {
     width: 30%;
@@ -649,6 +669,10 @@ article .para-text {
   .mon_propos {
     margin-bottom: 8%;
     font-size: 0.6rem;
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .dates {
@@ -680,7 +704,7 @@ article .para-text {
   }
   .textes h4 {
     margin-top: 2%;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .textes p {
     width: 80%;
@@ -689,7 +713,7 @@ article .para-text {
   h3 {
     margin-top: 0%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
   }
   h4 {
     text-align: center;
@@ -713,5 +737,14 @@ article .para-text {
   }
   .article article h3 {
     text-align: start;
+  }
+  .para-aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .icones {
+    font-size: 3em;
   }
 }
