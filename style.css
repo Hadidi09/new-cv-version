@@ -1,8 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 body {
-  width: 100%;
+  width: 100vw;
   margin: 0%;
   padding: 0%;
   display: flex;
@@ -21,7 +18,7 @@ body {
 }
 
 aside {
-  width: 45%;
+  width: 38vw;
   background-color: rgb(92 112 177);
   display: flex;
   flex-direction: column;
@@ -29,7 +26,7 @@ aside {
 }
 
 main {
-  width: 70%;
+  width: 62vw;
 
   display: flex;
   flex-direction: column;
@@ -306,18 +303,19 @@ header h2 {
 .article5,
 .article6 {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   margin-bottom: 0%;
 }
 .dates {
-  width: 33%;
-  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 85%;
 }
 .dates p {
   text-align: center;
 }
 .textes {
-  width: 55%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -338,6 +336,10 @@ header h2 {
   font-weight: 400;
   font-size: 1em;
 }
+.h4-conteneur {
+  grid-column: 1/3;
+  text-align: center;
+}
 article h3 {
   margin-top: 2%;
   margin-bottom: 4%;
@@ -351,7 +353,8 @@ article .para-text {
   color: #000;
   border-radius: 15px;
   padding: 1%;
-  max-width: fit-content;
+  width: 92%;
+  margin: 0 1rem;
 }
 .article article {
   margin-bottom: -5%;
@@ -411,7 +414,7 @@ article .para-text {
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
     display: block;
-    font-size: 1em;
+    font-size: 2em;
   }
   #contenu {
     width: 90%;
