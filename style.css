@@ -107,11 +107,8 @@ figure {
   text-align: center;
 }
 .mon_propos {
-  width: 88%;
-  margin-top: 1%;
-  margin-left: 10%;
-  margin-right: 6%;
-  margin-bottom: 0%;
+  width: 93%;
+  margin-left: 2.5%;
   text-align: justify;
   font-size: 1.2em;
   border: 2px solid rgb(92 112 177);
@@ -304,7 +301,11 @@ header h2 {
 .article6 {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0%;
+  border: 2px solid #4564;
+  padding-bottom: 1%;
+  border-radius: 15px;
+  margin: 1% 1%;
+  overflow: scroll;
 }
 .dates {
   display: grid;
@@ -320,7 +321,6 @@ header h2 {
   padding: 0;
 }
 .textes h4 {
-  text-transform: uppercase;
   margin-bottom: 2%;
 }
 .textes h5 {
@@ -417,9 +417,7 @@ article .para-text {
     font-size: 2em;
   }
   #contenu {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 60rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: column-reverse;
@@ -430,23 +428,22 @@ article .para-text {
     font-size: 2em;
   }
   .photo {
-    width: 26%;
+    width: 15rem;
     position: absolute;
     top: 0.7%;
-    left: 66%;
+    left: 44rem;
     background: rgb(92 112 177);
     box-shadow: 0 0 0.3em 0.3em rgb(92 112 177);
     border-radius: 7%;
     border: 2px solid rgb(0, 255, 255);
   }
   header {
-    width: 50%;
+    width: 46rem;
     padding-bottom: 10%;
     float: left;
-    font-size: 1em;
   }
-  hearder h1 {
-    font-size: 2em;
+  header h1 {
+    font-size: 1.4em;
   }
   .mon_propos {
     margin-bottom: 8%;
@@ -509,6 +506,11 @@ article .para-text {
   }
   .fa-4x {
     font-size: 4em;
+  }
+  .dates {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
   }
 }
 @media (min-width: 280px) and (max-width: 479px) {
@@ -578,12 +580,10 @@ article .para-text {
   }
 
   .dates {
-    width: 40%;
-    border-radius: 30%;
-    /*box-shadow: 0 0 5px 5px rgb(92,107,192);
-       border: 2px solid rgb(92,107,192);*/
+    width: 22rem;
     padding-bottom: 0%;
     padding-top: 2%;
+    margin-left: 33px;
   }
   .article1,
   .article2,
@@ -595,6 +595,8 @@ article .para-text {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 96%;
+    overflow: scroll;
   }
   .Expérience_professionnelle h2,
   .Formations h2 {
@@ -619,8 +621,8 @@ article .para-text {
     font-size: 1em;
   }
   h4 {
-    text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
+    width: 19rem;
   }
 
   .article {
@@ -705,7 +707,7 @@ article .para-text {
   }
 
   .dates {
-    width: 50%;
+    width: 20rem;
     border-radius: 30%;
     padding-bottom: 0%;
     padding-top: 2%;
